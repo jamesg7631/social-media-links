@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap");
+:root {
+  --primary-background-color: #141414;
+  --card-background-color: #1f1f1f;
+  --primary-btn-color: #323232;
+
+  --spacing-700: 32px;
+  --spacing-500: 24px;
+  --spacing-300: 16px;
+  --spacing-200: 8px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary-background-color);
+  font-family: "Figtree", sans-serif;
+  font-size: 14px;
+}
+
+button {
+  font-family: "Figtree", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  max-width: 375px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 375px;
+  width: 95%;
+  text-align: center;
+  background-color: var(--card-background-color);
+  padding: var(--spacing-700);
+  border-radius: 16px;
+}
+
+.text-preset-1 {
+  color: #ebebeb;
+  font-weight: 600;
+}
+
+.text-preset-2 {
+  color: #aec650;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.text-preset-3 {
+  color: #ebebeb;
+  font-weight: 400;
+}
+
+.jessica-avatar {
+  margin: 0 auto;
+  margin-bottom: var(--spacing-500);
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+}
+
+.person-name {
+  margin-bottom: var(--spacing-200);
+}
+.personal-location {
+  margin-bottom: var(--spacing-500);
+}
+
+.skill-summary {
+  margin-bottom: var(--spacing-500);
+}
+
+.primary-btn {
+  background-color: var(--primary-btn-color);
+  margin-bottom: var(--spacing-300);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: var(--spacing-200) var(--spacing-300);
+  font-weight: 600;
+}
