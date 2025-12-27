@@ -27,12 +27,12 @@
 
 body {
   background-color: var(--primary-background-color);
-  font-family: "Figtree", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 14px;
 }
 
 button {
-  font-family: "Figtree", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 .container {
   display: flex;
@@ -54,7 +54,7 @@ button {
   display: flex;
   flex-direction: column;
   max-width: 375px;
-  width: 95%;
+  width: 100%;
   text-align: center;
   background-color: var(--card-background-color);
   padding: var(--spacing-700);
