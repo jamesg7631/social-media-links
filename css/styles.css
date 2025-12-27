@@ -3,6 +3,7 @@
   --primary-background-color: #141414;
   --card-background-color: #1f1f1f;
   --primary-btn-color: #323232;
+  --secondary-btn-color: #aec650;
 
   --spacing-700: 32px;
   --spacing-500: 24px;
@@ -103,4 +104,10 @@ button {
   color: white;
   padding: var(--spacing-200) var(--spacing-300);
   font-weight: 600;
+}
+
+.primary-btn:hover {
+  background-color: var(--secondary-btn-color);
+  color: var(--card-background-color);
+  cursor: pointer;
 }
